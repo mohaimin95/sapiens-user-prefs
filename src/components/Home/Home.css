@@ -1,0 +1,28 @@
+.settings-item {
+    margin: .25rem 0;
+}
+.settings-item h3 {
+    margin: .5rem 0;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.settings-item-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-palette {
+    height: 3rem;
+    width: 3rem;
+    border: 0;
+    margin-right: .25rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.color-palette:hover {
+    opacity: .9;
+}
+.color-palette.active {
+    border: 2px solid #222;
+}

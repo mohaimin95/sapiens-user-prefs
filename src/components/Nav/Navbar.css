@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    height: 4rem;
+    justify-content: space-between;
+    padding: 0 1rem;
+    transition: .3s;
+}
+nav .brand {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+
+}
+nav .brand img {
+    height: 3rem;
+    width: 3rem;
+    /* margin-right: .5rem; */
+}
+nav .brand h1 {
+    font-size: 1rem;
+}
+
+nav .nav-menu {
+    display: flex;
+    align-items: center;
+}
+nav .nav-menu .nav-menu-item {
+    margin-right: 1rem;
+}
+nav .nav-menu .nav-menu-item:last-child {
+    margin-right: 0;
+}
+nav .nav-menu .nav-menu-item span {
+    cursor: pointer;
+    color: #fff;
+}
+nav .nav-menu .nav-menu-item a {
+    text-decoration: none;
+    color: #fff;
+}

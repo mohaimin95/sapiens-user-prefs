@@ -1,0 +1,20 @@
+.btn-primary {
+    border: 0;
+    padding: .5rem 1.5rem;
+    border-radius: .15rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    opacity: .9;
+}
+
+.btn-primary:active {
+    opacity: .899;
+}
+
+.btn-primary:disabled {
+    opacity: .6;
+    cursor: not-allowed;
+}

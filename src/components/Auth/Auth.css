@@ -1,0 +1,10 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.card .card-title {
+    margin-bottom: .5rem;
+    text-align: center;
+}
